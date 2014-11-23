@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google It!</title>
+	<link rel = "stylesheet" href = "style.css">
+	<script type="text/javascript">
+		$(function() {
+ 
+$("body").css({padding:0,margin:0});
+  var f = function() {
+    $(".ndra-container").css({position:"relative"});
+    var h1 = $("body").height();
+    var h2 = $(window).height();
+    var d = h2 - h1;
+    var h = $(".ndra-container").height() + d;    
+    var ruler = $("<div>").appendTo(".ndra-container");       
+    h = Math.max(ruler.position().top,h);
+    ruler.remove();    
+    $(".ndra-container").height(h);
+  };
+  setInterval(f,1000);
+  $(window).resize(f);
+  f();
+ 
+});
+	</script>
+</head>
+<body>
+	<div id = "container">
+	<div class = "nav">
+	<ul>
+		<li><a href = "#">+You</a></li>
+		<li><a href = "#">Gmail</a></li>
+		<li><a href = "#">Images</a></li>
+		<li><a href = "#"><img src = "1.png" /></a></li>
+		<li><a href = "#" id = "button">Sign in</a></li>
+	</ul>
+	</div>
+	<div class = "zero">
+	</div>
+	<div class = "logo">
+		<img src = "http://searchengineland.com/figz/wp-content/seloads/2014/06/Google-logo-world-cup-2014.png" alt = "Google" />
+		<span class = "search"><input id = "box" type = "text" name = "searchbox" size = "90"></span><span class = "mic"><img src = "2.png" alt = "VoiceSearch" /></span>
+		</div><div class = "sears">
+		<button class = "sear" aria-label = "Google It!">
+		 	<span>Google It!</span>
+		</button>
+		<button class = "sear" aria-label = "Do U Feel Lucky?">
+			<span>Do U Feel Lucky?</span>			
+		</button>
+	</div>
+	<div class = "zero">
+	</div>
+	<div class = "footer">
+		<span class = "back">
+			<ul>
+			<li><a href = "#">Advertising</a></li>
+			<li><a href = "#">Business</a></li>
+			<li><a href = "#">About</a></li>
+			</ul>
+		</span>
+		<span class = "b_right">
+		<ul>
+			<li><a href = "#">Privacy & Terms</a></li>
+			<li><a href = "#">Settings</a></li>
+		</ul>
+		</span>
+	</div>
+</div>
+
+</body>
+</html>

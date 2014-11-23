@@ -1,0 +1,90 @@
+#button{
+	border-radius: 5px;
+	width: 70px;
+	height: auto;
+	background-color: blue;
+	text-align: center;
+	color: white;
+	float: right;
+	font-size: 20px;
+	margin-top: 10px;
+	font-family: Tahoma;
+	font-variant: small-caps;
+}
+.nav ul{
+	display: inline;
+	float: right;
+	margin-right: 10px;
+}
+.nav ul li{
+	list-style:  none;
+	display: inline-block;
+	margin-right: 10px;
+
+}
+.nav ul li a{
+	text-decoration: none;
+	color: grey;
+}
+a:hover{
+	border-bottom: 2px dotted grey;
+}
+.zero{
+	clear: both;
+}
+.logo{
+	margin-top: 150px;
+	margin-left: 400px;
+}
+.search{
+	border: 1px solid #cdcdcd;
+	border-color: rgba(0,0,0,.15);
+	height: 50px;
+}
+.mic{
+	padding-left: 10px;
+}
+.sears{
+	margin-left: 570px;
+	margin-top: 20px;
+}
+.sear{
+ 	cursor: default!important;
+	display: inline-block;
+	font-weight: bold;
+	height: 29px;
+	line-height: 29px;
+	min-width: 54px;
+	padding: 0 8px;
+	text-align: center;
+	text-decoration: none!important;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-user-select: none;
+}
+.back ul{
+	list-style: none;
+	float: left;
+}
+.back ul li{
+	display: inline-block;
+	padding: 0 18px;
+	padding-top: 106px;
+}
+.back ul li a{
+	text-decoration: none;
+	color: grey;
+}
+.b_right ul{
+	float: right;
+	list-style: none;
+}
+.b_right ul li{
+	display: inline-block;
+	padding: 0 15px;
+	margin-top: 106px;
+}
+.b_right ul li a{
+	text-decoration: none;
+	color: grey;
+}
